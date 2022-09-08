@@ -1,1 +1,1 @@
-# Read-Packet-Capture-Files
+A program to format train signals sniffed using wireshark. The captured packets are formatted using specific information from the raw decrypted 'header' of each complete packet file, and separated and grouped based on the relevant header, then logged.
