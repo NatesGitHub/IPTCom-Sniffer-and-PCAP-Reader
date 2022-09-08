@@ -12,8 +12,8 @@ from time import sleep
 sipTR = 'x.x.x.x'
 sipLF = 'x.x.x.x'
 sipSim = 'x.x.x.x'
-sport = 54321
-sportSim = 23
+sport = xxxx
+sportSim = xx
 
 prevSeq = None
 payLoad = None
