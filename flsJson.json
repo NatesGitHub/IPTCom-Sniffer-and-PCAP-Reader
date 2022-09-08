@@ -1,0 +1,664 @@
+{
+    "sigFls": [
+        {
+            "Address": "0x10b706c",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_VehSpd"
+        },
+        {
+            "Address": "0x10b6bb8",
+            "Type": "F32",
+            "Name": "MWT.VC2210.VC2210_XR_MsCtrlSet"
+        },
+        {
+            "Address": "0x10b6bc0",
+            "Type": "F32",
+            "Name": "MWT.VC2210.VC2210_WR_PctTrEft"
+        },
+        {
+            "Address": "0x10b8b60",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_TrEftLim"
+        },
+        {
+            "Address": "0x10b8b70",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_TrEftCtrl"
+        },
+        {
+            "Address": "0x10b8be4",
+            "Type": "F32",
+            "Name": "MWT.VC2220.WR_TrEftAccCtrl"
+        },
+        {
+            "Address": "0x10b8be8",
+            "Type": "F32",
+            "Name": "MWT.VC2220.WR_TrEftDeclCtrl"
+        },
+        {
+            "Address": "0x10b8bec",
+            "Type": "F32",
+            "Name": "MWT.VC2220.WR_TrEftMaxSpdCtrl"
+        },
+        {
+            "Address": "0x10b8bf0",
+            "Type": "F32",
+            "Name": "MWT.VC2220.WR_TrEftZeroSpdCtrl"
+        },
+        {
+            "Address": "0x10b925c",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VehDyn_AVCtrl_1.XR_PrpValMaxSpdCtrl"
+        },
+        {
+            "Address": "0x10b9260",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VehDyn_AVCtrl_1.XR_IntgValMaxSpdCtrl"
+        },
+        {
+            "Address": "0x10b9254",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VehDyn_AVCtrl_1.XR_IntgValAccCtrl"
+        },
+        {
+            "Address": "0x10b9258",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VehDyn_AVCtrl_1.XR_IntgValDeclCtrl"
+        },
+        {
+            "Address": "0x10b9264",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VehDyn_AVCtrl_1.XR_PrpValZeroSpdCtrl"
+        },
+        {
+            "Address": "0x10b9268",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VehDyn_AVCtrl_1.XR_IntgValZeroSpdCtrl"
+        },
+        {
+            "Address": "0x10b8b90",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_TrEftDcuA"
+        },
+        {
+            "Address": "0x10b8b94",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_TrEftDcuC"
+        },
+        {
+            "Address": "0x10b8b98",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_TrEftDcuB"
+        },
+        {
+            "Address": "0x10b8b9c",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_TkovBrEftFricBrA"
+        },
+        {
+            "Address": "0x10b8ba0",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_TkovBrEftFricBrC"
+        },
+        {
+            "Address": "0x10b8ba4",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_TkovBrEftFricBrB"
+        },
+        {
+            "Address": "0x10b8b7c",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_BrEftFricBrs"
+        },
+        {
+            "Address": "0x10b8b78",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_SplitTrEftDcus"
+        },
+        {
+            "Address": "0x10b8bc4",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_BrEftMtx"
+        },
+        {
+            "Address": "0x10ba284",
+            "Type": "F32",
+            "Name": "MWT.VC2310.VC2310_WR_MaxBrEftFricBr"
+        },
+        {
+            "Address": "0x10b65a0",
+            "Type": "F32",
+            "Name": "MWT.VC1240xTC201.VC1240_WR_TrEftDcu"
+        },
+        {
+            "Address": "0x10b67ac",
+            "Type": "F32",
+            "Name": "MWT.VC1240xTC401.VC1240_WR_TrEftDcu"
+        },
+        {
+            "Address": "0x10b69b8",
+            "Type": "F32",
+            "Name": "MWT.VC1240xTC601.VC1240_WR_TrEftDcu"
+        },
+        {
+            "Address": "0x10ba26c",
+            "Type": "F32",
+            "Name": "MWT.VC2310.VC2310_WR_BrEftFricBr1"
+        },
+        {
+            "Address": "0x10ba270",
+            "Type": "F32",
+            "Name": "MWT.VC2310.VC2310_WR_BrEftFricBr2"
+        },
+        {
+            "Address": "0x10ba274",
+            "Type": "F32",
+            "Name": "MWT.VC2310.VC2310_WR_BrEftFricBr3"
+        },
+        {
+            "Address": "0x10b50fc",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC201.VC1210_XR_TrEftDcu"
+        },
+        {
+            "Address": "0x10b55ac",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC401.VC1210_XR_TrEftDcu"
+        },
+        {
+            "Address": "0x10b5a5c",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC601.VC1210_XR_TrEftDcu"
+        },
+        {
+            "Address": "0x10ba41c",
+            "Type": "F32",
+            "Name": "MWT.VC2320xBCU201.VC2320_XR_BrEft"
+        },
+        {
+            "Address": "0x10ba548",
+            "Type": "F32",
+            "Name": "MWT.VC2320xBCU401.VC2320_XR_BrEft"
+        },
+        {
+            "Address": "0x10ba674",
+            "Type": "F32",
+            "Name": "MWT.VC2320xBCU601.VC2320_XR_BrEft"
+        },
+        {
+            "Address": "0x10b7068",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_MeanVehSpd"
+        },
+        {
+            "Address": "0x10afa7c",
+            "Type": "F32",
+            "Name": "MWT.MIINDR2xDL101.MIINDR2_XR_SpdDatRec1"
+        },
+        {
+            "Address": "0x10afa80",
+            "Type": "F32",
+            "Name": "MWT.MIINDR2xDL101.MIINDR2_XR_SpdDatRec2"
+        },
+        {
+            "Address": "0x10b6f50",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdBcuAx1"
+        },
+        {
+            "Address": "0x10b6f54",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdBcuAx2"
+        },
+        {
+            "Address": "0x10b6f58",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdBcuAx3"
+        },
+        {
+            "Address": "0x10b6f5c",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdBcuAx4"
+        },
+        {
+            "Address": "0x10b6f60",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdBcuAx5"
+        },
+        {
+            "Address": "0x10b6f64",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdBcuAx6"
+        },
+        {
+            "Address": "0x10b6f68",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdDcuAx1"
+        },
+        {
+            "Address": "0x10b6f6c",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdDcuAx2"
+        },
+        {
+            "Address": "0x10b6f70",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdDcuAx3"
+        },
+        {
+            "Address": "0x10b6f74",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdDcuAx4"
+        },
+        {
+            "Address": "0x10b6f78",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdDcuAx5"
+        },
+        {
+            "Address": "0x10b6f7c",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_SpdDcuAx6"
+        },
+        {
+            "Address": "0x10b6f80",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_RR_RefDiaAx1"
+        },
+        {
+            "Address": "0x10b6f84",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_RR_RefDiaAx3"
+        },
+        {
+            "Address": "0x10b6f8c",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaBcuAx2"
+        },
+        {
+            "Address": "0x10b6f90",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaBcuAx4"
+        },
+        {
+            "Address": "0x10b6f94",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaBcuAx5"
+        },
+        {
+            "Address": "0x10b6f98",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaBcuAx6"
+        },
+        {
+            "Address": "0x10b6fac",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaDcuAx1"
+        },
+        {
+            "Address": "0x10b6fb0",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaDcuAx2"
+        },
+        {
+            "Address": "0x10b6fb4",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaDcuAx3"
+        },
+        {
+            "Address": "0x10b6fb8",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaDcuAx4"
+        },
+        {
+            "Address": "0x10b6fbc",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaDcuAx5"
+        },
+        {
+            "Address": "0x10b6fc0",
+            "Type": "F32",
+            "Name": "MWT.VC2240.VC2240_XR_DiaDcuAx6"
+        },
+        {
+            "Address": "0x10b8bbc",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_XR_Acc"
+        },
+        {
+            "Address": "0x10b8bb4",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_MaxAcc"
+        },
+        {
+            "Address": "0x10b8bb8",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_WR_MaxDecl"
+        },
+        {
+            "Address": "0x10b8bc8",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_XR_Spd"
+        },
+        {
+            "Address": "0x10ba988",
+            "Type": "F32",
+            "Name": "MWT.VC4520.VC4520_WR_MaxSpd"
+        },
+        {
+            "Address": "0x10b8bac",
+            "Type": "F32",
+            "Name": "MWT.VC2220.VC2220_XR_LineVolt"
+        },
+        {
+            "Address": "0x10bb51c",
+            "Type": "F32",
+            "Name": "MWT.VC4810xDL101.VC4810xDL101_XR_LineCurr"
+        },
+        {
+            "Address": "0x10b511c",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC201.VC1210_XR_DcLkCurr"
+        },
+        {
+            "Address": "0x10b55cc",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC401.VC1210_XR_DcLkCurr"
+        },
+        {
+            "Address": "0x10b5a7c",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC601.VC1210_XR_DcLkCurr"
+        },
+        {
+            "Address": "0x10b500c",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC201.MIINDC2_XR_DcLkVolt"
+        },
+        {
+            "Address": "0x10b54bc",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC401.MIINDC2_XR_DcLkVolt"
+        },
+        {
+            "Address": "0x10b596c",
+            "Type": "F32",
+            "Name": "MWT.VC1210xTC601.MIINDC2_XR_DcLkVolt"
+        },
+        {
+            "Address": "0x10ba8cc",
+            "Type": "U16",
+            "Name": "MWT.VC4510.VC4510_XC_FcdBr"
+        },
+        {
+            "Address": "0x10b6baf",
+            "Type": "B8",
+            "Name": "MWT.VC2210.VC2210_BD_Drv12"
+        },
+        {
+            "Address": "0x10b6bca",
+            "Type": "B8",
+            "Name": "MWT.VC2210.VC2210_BD_Drv"
+        },
+        {
+            "Address": "0x10b6bc9",
+            "Type": "B8",
+            "Name": "MWT.VC2210.VC2210_BD_Br"
+        },
+        {
+            "Address": "0x10b6bc4",
+            "Type": "B8",
+            "Name": "MWT.VC2210.VC2210_BD_EmBr"
+        },
+        {
+            "Address": "0x10b6bc7",
+            "Type": "B8",
+            "Name": "MWT.VC2210.VC2210_BD_SafBr"
+        },
+        {
+            "Address": "0x10ba8cb",
+            "Type": "B8",
+            "Name": "MWT.VC4510.VC4510_BD_FcdBr"
+        },
+        {
+            "Address": "0x10ba269",
+            "Type": "B8",
+            "Name": "MWT.VC2310.VC2310_BD_HldBr"
+        },
+        {
+            "Address": "0x10b8b8d",
+            "Type": "B8",
+            "Name": "MWT.VC2220.VC2220_BD_Tkov"
+        },
+        {
+            "Address": "0x10b8b8e",
+            "Type": "B8",
+            "Name": "MWT.VC2220.VC2220_BD_FullTkov"
+        },
+        {
+            "Address": "0x10b8b8c",
+            "Type": "B8",
+            "Name": "MWT.VC2220.VC2220_BD_PreTkov"
+        },
+        {
+            "Address": "0x10b515f",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC201.VC1210_MD_AvlBr"
+        },
+        {
+            "Address": "0x10b515e",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC201.VC1210_MD_AvlDrv"
+        },
+        {
+            "Address": "0x10b560f",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC401.VC1210_MD_AvlBr"
+        },
+        {
+            "Address": "0x10b560e",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC401.VC1210_MD_AvlDrv"
+        },
+        {
+            "Address": "0x10b5abf",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC601.VC1210_MD_AvlBr"
+        },
+        {
+            "Address": "0x10b5abe",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC601.VC1210_MD_AvlDrv"
+        },
+        {
+            "Address": "0x10b65a5",
+            "Type": "B8",
+            "Name": "MWT.VC1240xTC201.VC1240_BD_ConvOpr"
+        },
+        {
+            "Address": "0x10b67b1",
+            "Type": "B8",
+            "Name": "MWT.VC1240xTC401.VC1240_BD_ConvOpr"
+        },
+        {
+            "Address": "0x10b69bd",
+            "Type": "B8",
+            "Name": "MWT.VC1240xTC601.VC1240_BD_ConvOpr"
+        },
+        {
+            "Address": "0x10b65a4",
+            "Type": "B8",
+            "Name": "MWT.VC1240xTC201.VC1240_BD_DcLkChrg"
+        },
+        {
+            "Address": "0x10b67b0",
+            "Type": "B8",
+            "Name": "MWT.VC1240xTC401.VC1240_BD_DcLkChrg"
+        },
+        {
+            "Address": "0x10b69bc",
+            "Type": "B8",
+            "Name": "MWT.VC1240xTC601.VC1240_BD_DcLkChrg"
+        },
+        {
+            "Address": "0x10ba418",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU201.VC2320_MD_BrFullApl"
+        },
+        {
+            "Address": "0x10ba419",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU201.VC2320_MD_BrFullRel"
+        },
+        {
+            "Address": "0x10ba544",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU401.VC2320_MD_BrFullApl"
+        },
+        {
+            "Address": "0x10ba545",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU401.VC2320_MD_BrFullRel"
+        },
+        {
+            "Address": "0x10ba670",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU601.VC2320_MD_BrFullApl"
+        },
+        {
+            "Address": "0x10ba671",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU601.VC2320_MD_BrFullRel"
+        },
+        {
+            "Address": "0x10ba299",
+            "Type": "B8",
+            "Name": "MWT.VC2310.VC2310_BD_TrkBrA"
+        },
+        {
+            "Address": "0x10ba29a",
+            "Type": "B8",
+            "Name": "MWT.VC2310.VC2310_BD_TrkBrC"
+        },
+        {
+            "Address": "0x10ba29b",
+            "Type": "B8",
+            "Name": "MWT.VC2310.VC2310_BD_TrkBrB"
+        },
+        {
+            "Address": "0x10ba767",
+            "Type": "B8",
+            "Name": "MWT.VC2340xTRB20X.VC2340_MD_TrkBrActv"
+        },
+        {
+            "Address": "0x10ba7cf",
+            "Type": "B8",
+            "Name": "MWT.VC2340xTRB40X.VC2340_MD_TrkBrActv"
+        },
+        {
+            "Address": "0x10ba837",
+            "Type": "B8",
+            "Name": "MWT.VC2340xTRB60X.VC2340_MD_TrkBrActv"
+        },
+        {
+            "Address": "0x10c2667",
+            "Type": "B8",
+            "Name": "MWT.VC7210.VC7210_BD_Sand"
+        },
+        {
+            "Address": "0x10ba3e0",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU201.MIINBR2_MD_SldOn"
+        },
+        {
+            "Address": "0x10ba50c",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU401.MIINBR2_MD_SldOn"
+        },
+        {
+            "Address": "0x10ba638",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU601.MIINBR2_MD_SldOn"
+        },
+        {
+            "Address": "0x10b5ec0",
+            "Type": "B8",
+            "Name": "MWT.VC1220.VC1220_MD_SlgtSlpSld1"
+        },
+        {
+            "Address": "0x10b5ec1",
+            "Type": "B8",
+            "Name": "MWT.VC1220.VC1220_MD_SlgtSlpSld2"
+        },
+        {
+            "Address": "0x10b5ec2",
+            "Type": "B8",
+            "Name": "MWT.VC1220.VC1220_MD_MedSlpSld"
+        },
+        {
+            "Address": "0x10b5ec3",
+            "Type": "B8",
+            "Name": "MWT.VC1220.VC1220_MD_HvySlpSld"
+        },
+        {
+            "Address": "0x10b9f98",
+            "Type": "B8",
+            "Name": "MWT.VC2260.MIINDDDCA101_MD_Cab1Actv"
+        },
+        {
+            "Address": "0x10b9f99",
+            "Type": "B8",
+            "Name": "MWT.VC2260.MIINDDDCA701_MD_Cab2Actv"
+        },
+        {
+            "Address": "0x10ba3e7",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU201.MIINBR2_ZD_MinrFlt"
+        },
+        {
+            "Address": "0x10ba3e8",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU201.MIINBR2_ZD_MajFlt"
+        },
+        {
+            "Address": "0x10ba513",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU401.MIINBR2_ZD_MinrFlt"
+        },
+        {
+            "Address": "0x10ba514",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU401.MIINBR2_ZD_MajFlt"
+        },
+        {
+            "Address": "0x10ba63f",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU601.MIINBR2_ZD_MinrFlt"
+        },
+        {
+            "Address": "0x10ba640",
+            "Type": "B8",
+            "Name": "MWT.VC2320xBCU601.MIINBR2_ZD_MajFlt"
+        },
+        {
+            "Address": "0x10b515d",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC201.VC1210_ZD_ErrDcu"
+        },
+        {
+            "Address": "0x10b560d",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC401.VC1210_ZD_ErrDcu"
+        },
+        {
+            "Address": "0x10b5abd",
+            "Type": "B8",
+            "Name": "MWT.VC1210xTC601.VC1210_ZD_ErrDcu"
+        },
+        {
+            "Address": "0x10b5e0f",
+            "Type": "B8",
+            "Name": "MWT.VC1220.MIINMXDCX8_MD_LineCurrBlw2A"
+        }
+    ]
+}
